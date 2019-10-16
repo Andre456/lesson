@@ -6,6 +6,9 @@ public class Main {
         Main m2 = new Main();
         System.out.println(m1);
         System.out.println(m2);
+        m1 = m2;
+        System. out. println(m1);
+        System. out. println(m2);
 
     }
 }
