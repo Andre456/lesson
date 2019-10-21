@@ -70,7 +70,7 @@ public class Homework20_10 {
         System.out.println("sum" + sum);
 
 
-
+//упр7
         int[] pif = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         for (int q : pif) {
             for (int w : pif) {
