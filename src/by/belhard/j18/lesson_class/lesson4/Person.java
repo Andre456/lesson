@@ -19,4 +19,13 @@ public class Person {
     public Person(String name, int age, Country country) {
        this(name, age,country, Sex.MALE);
     }
+
+    public int growOld(){
+        return ++age;
+    }
+
+    public void eat(String dish){
+        System.out.printf("I'm eating %s. Om-om-om\n", dish);
+    }
+
 }
