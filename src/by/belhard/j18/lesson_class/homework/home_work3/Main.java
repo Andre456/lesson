@@ -6,8 +6,8 @@ public class Main {
         Table table1 = new Table(MaterialType.GLASS, TableShape.OVAL, 4,100);
 
 
-        System.out.println(table1.legs + table1.price);
+        System.out.println(table1.legs+" "+ table1.price);
 
     }
     }
-}
+

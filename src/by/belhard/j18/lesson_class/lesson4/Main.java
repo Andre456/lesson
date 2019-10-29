@@ -5,8 +5,7 @@ public class Main {
 
         Country country1 = new Country("Brazil", 123456);
         System.out.println(country1.title + "zipCode" +country1.zipCode);
-        Person person1= new Person(("Alfredo", country1));
-        Person person2 = new Person(("Tereza",16, person1.country,Sex.FEMALE))
+
 
     }
 }

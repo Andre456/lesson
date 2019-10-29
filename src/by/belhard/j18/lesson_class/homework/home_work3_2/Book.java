@@ -14,20 +14,24 @@ public class Book {
     }
 
     public String getNameBook() {
+
         return nameBook;
     }
 
     public void setNameBook(String nameBook) {
+
         this.nameBook = nameBook;
     }
 
 
 
     public int getNumberOfPages() {
+
         return numberOfPages;
     }
 
     public void setNumberOfPages(int numberOfPages) {
+
         this.numberOfPages = numberOfPages;
     }
 }
